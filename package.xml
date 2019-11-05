@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>multilayer_laser_scan</name>
+  <version>1.0.0</version>
+  <description>A multi-layer laser scan</description>
+
+  <license>BSD</license>
+
+  <url>https://github.com/peci1/multilayer_laser_scan</url>
+
+  <author email="peckama2@fel.cvut.cz">Martin Pecka</author>
+  <maintainer email="peckama2@fel.cvut.cz">Martin Pecka</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
